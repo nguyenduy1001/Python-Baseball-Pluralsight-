@@ -1,0 +1,27 @@
+// git init
+// git status
+// git add
+// git commit
+
+// git log
+// git show
+// git diff
+
+//Working Directory: Thư mục làm việc của mình dưới local
+//Staging Area: Khi commit thì các file ở WORKING Dir --> Staging area; chỉ những file nằm trong staging area mới được commit; -- màu xanh
+//Repository -- Lưu những thay đổi của commit
+
+//git restore
+    git restore <filename> để xóa bỏ thay đỏi ở Working Dir
+    git restore --staged <filename> để chuyển ngược lại từ staging -> working Directory
+// git reset
+    git reset --soft <id>
+    git reset --mixed <id>
+    git reset --hard <id>
+
+//git revert
+
+//Git remote add origin <link>
+//git remote -v 
+//git push
+//git push -u origin master
